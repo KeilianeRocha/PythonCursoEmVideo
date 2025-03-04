@@ -170,6 +170,43 @@ print('Olá {:^20}'.format(nome))
 - Salve o arquivo e execute.
 - **Mantenha seu código organizado**
 ---
+
+# Estruturas de Controle
+- `if.. elif.. else, for` e `while`
+
+## Condições Aninhadas
+Uma conidção dentro da outra.
+### Exemplo
+
+```Python
+if carro.esquerda(): # Não esqueça os dois pontos`:`
+#se carro.esquerda()
+  carro.siga()
+  carro.direita()
+  carro.siga()
+  carro.direita()
+  carro.esquerda()
+  carro.siga()
+  carro.direita()
+  carro.siga()
+elif carro.direita(): # Em caso de mais de 3 condições, é possível adicionar quantos `elif` forem necessários. Nunca pode ser usado sem um `if`.
+#senao se carro.direita()
+  carro.siga()
+  carro.esquerda()
+  carro.siga()
+  carro.esquerda()
+  carro.siga()
+else: # Pode ser sado nenhuma ou uma única vez
+#senao
+  carro.siga()
+carro.para()
+```
+
+
+
+
+
+---
 ***Em construção ...***
 
 
