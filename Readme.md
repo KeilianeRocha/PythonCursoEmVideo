@@ -175,7 +175,7 @@ print('Olá {:^20}'.format(nome))
 - `if.. elif.. else, for` e `while`
 
 ## Condições Aninhadas
-Uma conidção dentro da outra.
+Uma conidição dentro da outra.
 ### Exemplo
 
 ```Python
