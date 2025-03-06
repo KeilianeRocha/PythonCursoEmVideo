@@ -5,3 +5,16 @@
     # - Até 19 anos ==> JUNIOR
     # - Até 20 anos ==> SENIOR
     # - Acima ==> MASTER
+    
+    var = int(input("xxx: "))
+print("xxx")
+
+if var:
+    print(f"xx{var}")
+elif var:
+    print(f"xx{var}")
+elif var:
+    print(f"xx{var}")
+else:
+    print(f"xx")
+print(f"{'Fim do Programa ':=^30}")

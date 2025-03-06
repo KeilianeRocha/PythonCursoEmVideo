@@ -1,5 +1,7 @@
 # TODO: Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um triângulo.
-# * Para se formar um triângulo, cada seguimento tem que ser menor do que a soma do cumprimentos dos outros dois.
+"""_Regra_
+ Para se formar um triângulo, cada seguimento tem que ser menor do que a soma do cumprimentos dos outros dois.
+ """
 
 while True:
     r1 = float(input("Primeiro seguimento: "))

@@ -6,3 +6,17 @@
 # - entre 30. e 34.9 ==> Obesidade classe I
 # - entre 35.0 e 39.9 ==> Obesidade classe II
 # - Acima de 40 ==> Obesidade classe III
+
+
+var = int(input("xxx: "))
+print("xxx")
+
+if var:
+    print(f"xx{var}")
+elif var:
+    print(f"xx{var}")
+elif var:
+    print(f"xx{var}")
+else:
+    print(f"xx")
+print(f"{'Fim do Programa ':=^30}")

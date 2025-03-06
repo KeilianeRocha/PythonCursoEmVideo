@@ -1,7 +1,7 @@
 # TODO: Faça um programa que leia uma frase pelo teclado e mostre:
-# a) Quantas vezes aparece a letra "A"
-# b) Em que posição ela aparece a primeira vez.
-# c) Em que posição ela aparece a última vez.
+    # a) Quantas vezes aparece a letra "A"
+    # b) Em que posição ela aparece a primeira vez.
+    # c) Em que posição ela aparece a última vez.
 
 phase = str(input('Digite uma frase: ')).upper().strip()
 # 'UPPER' COLOCA A FRASE EM MAIÚSCULA
