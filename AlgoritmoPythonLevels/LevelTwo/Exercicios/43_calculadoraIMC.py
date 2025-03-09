@@ -1,4 +1,4 @@
-# TODO: Desenvolva uma lógica que lia o peso e a altura de uma pessoa,
+# TODO: Desenvolva uma lógica que leia o peso e a altura de uma pessoa,
 # calcule seu IMC e mostre seu status, de acordo com a tabela abaixo;
 # - Abaixo de 18.5 ==> Abaixo do peso
 # - entre 18.9 e 24.9 ==> Peso ideal
