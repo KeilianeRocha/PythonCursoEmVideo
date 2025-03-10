@@ -7,16 +7,37 @@
 # - entre 35.0 e 39.9 ==> Obesidade classe II
 # - Acima de 40 ==> Obesidade classe III
 
+while True:
+    peso = float(input("Digite seu peso (Kg) "))
+    altura = float(input("Digite sua altura (M) "))
+    imc = peso / (altura ** 2)
 
-var = int(input("xxx: "))
-print("xxx")
+    if imc < 18.5:  # < == MENOR
+        print(f"Seu IMC é de {imc:.1f}: " ,end='')
+        print("ABAIXO do PESO")
+    elif 18.5 <= imc <= 24.9:
+        print(f"Seu IMC é de {imc:.1f}: " ,end='')
+        print("PESO ADEQUADO")
+    elif 25 <= imc <= 29.9:
+        print(f"Seu IMC é de {imc:.1f}: " ,end='')
+        print("SOBREPESO PESO!")
+    elif 30 <= imc <= 34.9:
+        print(f"Seu IMC é de {imc:.1f}: " ,end='')
+        print("OBESIDADE CLASSE I!")
+    elif 35 <= imc <= 39.9:
+        print(f"Seu IMC é de {imc:.1f}: " ,end='')
+        print("OBESIDADE CLASSE II!")
+    else:
+        print(f"Seu IMC é de {imc:.1f}: " ,end='')
+        print("OBESIDADE CLASSE III!")
+    break
 
-if var:
-    print(f"xx{var}")
-elif var:
-    print(f"xx{var}")
-elif var:
-    print(f"xx{var}")
-else:
-    print(f"xx")
+print("Classificação segundo a OMS a partir do IMC.")
 print(f"{'Fim do Programa ':=^30}")
+
+
+"""
+    > == MAIOR
+    < == MENOR
+    """
+novoSalario = salario + (salario * 15 / 100)

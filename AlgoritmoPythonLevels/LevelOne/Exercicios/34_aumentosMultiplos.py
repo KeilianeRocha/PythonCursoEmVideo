@@ -11,3 +11,5 @@ else:
     print(f"Quem ganhava R${salario:.2f} agora passa a ganhar R${novoSalario:.2f} agora.")
 print(f"{' Fim do Programa ':=^30}")
 
+
+novoSalario = salario + (salario * 15 / 100)
