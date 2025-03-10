@@ -10,25 +10,25 @@
 while True:
     peso = float(input("Digite seu peso (Kg) "))
     altura = float(input("Digite sua altura (M) "))
-    imc = peso / (altura ** 2)
+    imc = peso / (altura**2)
 
     if imc < 18.5:  # < == MENOR
-        print(f"Seu IMC é de {imc:.1f}: " ,end='')
+        print(f"Seu IMC é de {imc:.1f}: ", end="")
         print("ABAIXO do PESO")
     elif 18.5 <= imc <= 24.9:
-        print(f"Seu IMC é de {imc:.1f}: " ,end='')
+        print(f"Seu IMC é de {imc:.1f}: ", end="")
         print("PESO ADEQUADO")
     elif 25 <= imc <= 29.9:
-        print(f"Seu IMC é de {imc:.1f}: " ,end='')
+        print(f"Seu IMC é de {imc:.1f}: ", end="")
         print("SOBREPESO PESO!")
     elif 30 <= imc <= 34.9:
-        print(f"Seu IMC é de {imc:.1f}: " ,end='')
+        print(f"Seu IMC é de {imc:.1f}: ", end="")
         print("OBESIDADE CLASSE I!")
     elif 35 <= imc <= 39.9:
-        print(f"Seu IMC é de {imc:.1f}: " ,end='')
+        print(f"Seu IMC é de {imc:.1f}: ", end="")
         print("OBESIDADE CLASSE II!")
     else:
-        print(f"Seu IMC é de {imc:.1f}: " ,end='')
+        print(f"Seu IMC é de {imc:.1f}: ", end="")
         print("OBESIDADE CLASSE III!")
     break
 

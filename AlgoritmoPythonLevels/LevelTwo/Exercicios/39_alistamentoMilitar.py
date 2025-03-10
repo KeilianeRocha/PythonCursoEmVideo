@@ -1,7 +1,7 @@
 # TODO: Faça um programa que leia o ano de nascimento de um jovem e informe, de acordo com sua idade:
-# - Se ele ainda va se alista ao serviço militar.
-# - Se é a hora de se alistar.
-# - Se ja passou do tempo do alistamento.
+    # - Se ele ainda va se alista ao serviço militar.
+    # - Se é a hora de se alistar.
+    # - Se ja passou do tempo do alistamento.
 # TODO:Seu programa também deverá mostrar o tempo que falta ou que que passou do prazo.
 # TODO: Adicione a opção de perguntar o sexo para saber se a pessoa pode ou não se alistar OBRIGATÓRIAMENTE (em caso de ser do sexo masculino)
 

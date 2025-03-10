@@ -1,7 +1,7 @@
 # TODO: Escreva um programa que leia um número qualquer inteiro e peça para o usuário escolher qual será a base de conversão:
-# - 1 para binario;
-# - 2 para octal
-# - 3 para hexadecimal
+    # - 1 para binario;
+    # - 2 para octal
+    # - 3 para hexadecimal
 
 while True:
     numero = int(input("Digite um número inteiro: "))
