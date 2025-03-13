@@ -202,6 +202,34 @@ else: # Pode ser sado nenhuma ou uma única vez
 carro.para()
 ```
 
+# Estruturas de repetição
+- Também chamado de `laço de repetição - iteração`
+```Python
+for c in range(1,10): # laço c no intervalo(1,10)
+  passo
+pega
+
+```
+--
+```Python
+for c in range(0,3): # laço c no intervalo(0,3)
+  passo
+  pula
+passo
+pega
+```
+--
+```Python
+for c in range(0,3): # laço c no intervalo(0,3)
+  if moeda # se moeda, pega e segue a repetição
+    pega
+  passo
+  pula
+passo
+pega
+```
+
+
 
 
 
