@@ -5,7 +5,7 @@ Um número é par se for divisível por 2 (ou seja, o resto da divisão por 2 é
 Caso contrário, o número é ímpar."""
 
 
-numero = int(input("Mediga um número qualquer: "))
+numero = int(input("Me diga um número qualquer: "))
 if numero % 2 == 0:
     print(f"O número {numero} é PAR")
 else:
