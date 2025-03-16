@@ -36,8 +36,5 @@ print("Classificação segundo a OMS a partir do IMC.")
 print(f"{'Fim do Programa ':=^30}")
 
 
-"""
-    > == MAIOR
-    < == MENOR
-    """
-novoSalario = salario + (salario * 15 / 100)
+
+
