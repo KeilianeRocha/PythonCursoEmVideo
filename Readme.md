@@ -202,8 +202,9 @@ else: # Pode ser sado nenhuma ou uma única vez
 carro.para()
 ```
 
-# Estruturas de repetição
+# Estruturas de repetição 'for'
 - Também chamado de `laço de repetição - iteração`
+- Estrutura de repetição com variável de controle *(quando se sabe o limite)*
 ```Python
 for c in range(1,10): # laço c no intervalo(1,10)
   passo
@@ -229,7 +230,24 @@ passo
 pega
 ```
 
-
+# Estruturas de repetição 'while'
+- Estrutura de repetição com teste lógico
+```Python
+while not apple: # não determina o quantitativo de passos ate a maçã
+  passo
+pega # encerra os passos
+```
+--
+```Python
+while not apple:
+  if chao
+  ande
+  if buraco:
+    pule 
+  if moeda:
+    pega
+pega
+```
 
 
 
