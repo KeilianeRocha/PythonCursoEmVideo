@@ -6,26 +6,27 @@ from random import randint
 from time import sleep
 
 totTentativas = 0
+palpites = 0
+acertou = False
 
+computador = randint(0, 10) #Gera números aleatórios entre 0 e 10 
 print(f"{' Jogo da advinhação ':=^30}")
 
-while True:
-    computador = randint(0, 10)
+while not acertou: # Enquanto não acertar
+  
     print('='*60)
     jogador = int(input("Em que número eu pensei? "))
+    palpites += 1 #Contagem de palpites
     print("PROCESSANDO...")
-    sleep(1) # COMPUTADOR ESPERA PARA SEGUIR 
-    if jogador <= computador: 
-        print("Mais! Tente novamente...")
-        if jogador >= computador:
-            print("Menos! Tente novamente...")
+    sleep(1) # Computador espera para seguir
+    if jogador == computador: 
+        acertou = True
     else:
-        if computador <= jogador:
+        if jogador < computador:
             print("Mais! Tente novamente...")
-        elif computador >= jogador:
+        elif jogador > computador:
             print("Menos! Tente novamente...")
-        else:
-           if jogador == computador:
-            print("Parabéns! Você venceu!")
-        break
+
+print("Parabéns! Você venceu!")
+print(f"Total de tentativas: {palpites}")
 print(f"{' Fim do Programa ':=^30}")
