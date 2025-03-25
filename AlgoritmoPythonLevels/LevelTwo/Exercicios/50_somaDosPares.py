@@ -12,3 +12,4 @@ for c in range(1, 7):
 print(f"Voce informou {cont} PARES e a soma foi {soma}")
 
 print(f"{' Fim do Programa ':=^30}")
+3

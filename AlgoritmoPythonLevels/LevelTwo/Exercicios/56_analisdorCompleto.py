@@ -15,13 +15,13 @@ for pessoa in range(1, 5):
     idade = int(input("idade: "))
     sexo = str(input("Sexo [M/F] ")).strip()
     somaIdade += idade
-    if pessoa == 1 and sexo in 'Mm':
+    if pessoa == 1 and sexo in 'M':
         maiorIdadeHomem = idade
         nomeMaisVelho = nome
-    if sexo in 'Mm' and idade > maiorIdadeHomem:
+    if sexo in 'M' and idade > maiorIdadeHomem:
         maiorIdadeHomem = idade
         nomeMaisVelho = nome
-    if sexo in 'Ff' and idade < 20:
+    if sexo in 'F' and idade < 20:
         totMulher20 += 1
 
 
