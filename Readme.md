@@ -209,7 +209,6 @@ carro.para()
 for c in range(1,10): # laço c no intervalo(1,10)
   passo
 pega
-
 ```
 --
 ```Python
@@ -264,6 +263,43 @@ while True: # True → é um loop infinito
     Break  # O comando Break faz com que haja a saída do laço de repetição
            # evita que apos pegar o treféu ele retorne para um laço infinito
 pega
+```
+
+## Variaveis Compostas 'tuplas()'
+- Com ou sem `()`
+- Podem armazenar vários valores (definir a quantidade)
+- Existem no Python 3 tipos:
+  - `Tuplas`
+  - `Listas`
+  - `Dicionário`
+- Utiliza indices para localizar cada valor `[var0][var1]`...
+- Pode usar:
+  - Método `len()` **comprimento** ► quantos elementos tem dentro da variável
+  - Estruturas de repetição
+  ### Limitação: 
+    **As `tuplas ` são imutáveis** 
+      - Entretanto é possível apagar a variável usando → `del(var)`*mas não pode apagar um único elemento*
+
+```Python
+loja = 'Mouse', 'Monitor', 'Teclado', 'MousePad'
+print = (f' Itens em estoque'{loja})
+```
+--
+
+#### Formas de usaar `tuplas` com for
+```Python
+loja = 'Mouse', 'Monitor', 'Teclado', 'MousePad'
+for item in loja:
+    print(f' - {item}')
+print(f'\nTotal de itens em estoque: {len(loja)}')
+```
+
+#### Aceita dados de tipos diferentes dentro da `tuplas`
+P. ex.:
+
+```Python
+pessoa = ('Aline', 39, 'M', 65.5)
+print(pessoa)
 ```
 
 
