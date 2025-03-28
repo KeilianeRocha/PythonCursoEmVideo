@@ -13,10 +13,10 @@ while True:
     print(f"Os 5 primeiros são {lista[0:5]}")
     print(f"Os 4 últimos são {lista[4:]}")
     print("Times em ordem alfabética:",sorted(lista))
-    for posicao, lista in enumerate(lista):
+    for posicao, lista in enumerate(lista): # ou retirar e manter print com index
         if lista == 'Santos':
             print(f"O Santos esta na {posicao + 1}° na posição")
+            # print(f"O Santos esta na {lista.index("Santos")+ 1}° na posição")
     break
 
 
-# FIXME: Corrigir cod.

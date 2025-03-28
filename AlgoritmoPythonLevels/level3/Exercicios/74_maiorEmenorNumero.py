@@ -7,8 +7,6 @@ aleatorio = tuple(sorted(sample(range(1, 100), 5)))
 # 'sample' → Seleciona 5 elementos únicos
 # 'sorted' → Ordena os números em ordem crescente.
 print(f"Os valores sorteados foram: {aleatorio}")
-print("O maior valor sorteado foi",min(aleatorio))
-print("O menor valor sorteado foi",max(aleatorio))
+print("O menor valor sorteado foi",min(aleatorio))
+print("O maior valor sorteado foi",max(aleatorio))
 
-
-# FIXME: Corrigir cod.

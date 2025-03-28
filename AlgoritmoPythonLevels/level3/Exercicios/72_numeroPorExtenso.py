@@ -2,7 +2,8 @@
 # de zero ate vinte.
 # Seu programa deverá ler um número pelo teclado (entre 0 e 20) e mostrá-lo por extenso.
 
-from num2words import num2words
+from num2words import num2words 
+# o uso desse módulo dispensa ter que escrever a tupla de números por extenso.
 
 
 contagem = tuple(range(0, 21))  # Cria uma tupla com números de 0 a 20
@@ -14,4 +15,4 @@ while True:
     else:
         print("Tente novamente. Digite um número entre 0 e 20: ")
 
-# FIXME: Corrigir cod.
+
