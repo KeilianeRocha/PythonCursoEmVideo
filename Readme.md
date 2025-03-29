@@ -265,7 +265,7 @@ while True: # True → é um loop infinito
 pega
 ```
 
-## Variaveis Compostas 'tuplas()'
+## Variaveis Compostas `tuplas()`
 - Com ou sem `()`
 - Podem armazenar vários valores (definir a quantidade)
 - Existem no Python 3 tipos:
@@ -274,7 +274,7 @@ pega
   - `Dicionário`
 - Utiliza indices para localizar cada valor `[var0][var1]`...
 - Pode usar:
-  - Método `len()` **comprimento** ► quantos elementos tem dentro da variável
+  - Método `len()` **comprimento** → quantos elementos tem dentro da variável
   - Estruturas de repetição
   ### Limitação: 
     **As `tuplas ` são imutáveis** 
@@ -286,7 +286,7 @@ print = (f' Itens em estoque'{loja})
 ```
 --
 
-#### Formas de usaar `tuplas` com for
+#### Formas de usar `tuplas` com for
 ```Python
 loja = 'Mouse', 'Monitor', 'Teclado', 'MousePad'
 for item in loja:
@@ -301,6 +301,27 @@ P. ex.:
 pessoa = ('Aline', 39, 'M', 65.5)
 print(pessoa)
 ```
+## Variaveis Compostas `listas[]`
+- Podem se mutáveis → o elemento rocado é eliminado
+- Para adicionar novo item → usa o método `var.append['newvar']`
+- Adicionar um novo item em determinada posição → `var.insert[0,'newvar']`
+- Formas de eliminar itens
+  - `del var[varnum]` → Remove por índice
+  - `var.pop[var]` → indicado o índice a excluir `var.pop[]` → usado pra eliminar o último índice
+  - `var.remove['var']` → não remove por índice e sim por conteúdo
+  - **Após a remoção do ítem, os demais são realinhados.**
+- Para verificar se um item esta na lista:
+```python
+if'a' in vogais: # o operador in é bem importante nas estruturas compostas
+  vogais.remove['x'] # so vou remover o item, se ele estiver na lista
+```
+- Algumas formas de manipular índices 
+  - Criar listas por meio de `range` → `var = list[range(4,11)]`
+  - Ordenar valores em uma `list` → `var.sort[]`
+  - Inverter ordem → `var.sort[reverse=True]`
+  - Para saber o tamanho de uma `list` → `len[var]`
+
+
 
 
 
