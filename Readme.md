@@ -320,6 +320,9 @@ if'a' in vogais: # o operador in é bem importante nas estruturas compostas
   - Ordenar valores em uma `list` → `var.sort[]`
   - Inverter ordem → `var.sort[reverse=True]`
   - Para saber o tamanho de uma `list` → `len[var]`
+#### Listas dentro de listas (compostas)
+
+
 
 
 
