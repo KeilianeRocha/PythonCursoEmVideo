@@ -322,6 +322,51 @@ if'a' in vogais: # o operador in é bem importante nas estruturas compostas
   - Para saber o tamanho de uma `list` → `len[var]`
 #### Listas dentro de listas (compostas)
 
+## Variaveis Compostas `dicionarios{}`
+> Semelhante as 'tuplas()' e as 'listas[]', so que é possível ter indices literais p. ex.
+>[0] → {nome}, [1] → {idade}
+
+``` python
+
+dados dict()
+dados  {'nome': 'Pedro', 'idade': 25}
+print(dados['nome'])
+print(dados['idade'])
+print(dados.values()) # pega todos os valores
+print(dados.keys()) # pega so a marcação dos itens (nome, idade)
+print(dados.items()) # pega ambos
+```
+´del´ → eleimina dados
+´copy´ → método usado para fazer uma cópia semelhante ao [:]em listas
+
+## Funções `def`
+Ex. de funções '`print()`, `len()` entre outras
+Se eu quiser mostrar um linha na tela posso criar uma função pra isso p. ex.: `mostrarLinha()`
+- Vantagem: evita linhas repetitivas, otimiza rotinas *Não é um laço!. Ele cria comandos personalizados, parametros
+```python
+# Função semparametro
+
+def mostrarLinhas():
+# 1
+# 2
+  # Entre a 'def' e o programa principal precisa existir 2 linhas de separação
+  print("_______________________________________________")
+mostraLinha() # toda vez que eu quiser que a 'def' seja executada, eu camo ela
+print("xpts")
+```
+-- 
+```python
+# Função com parametro
+
+def mensagem(msg):
+  print("_______________________________________________")
+  print(msg) # toda vez que eu quiser que a 'def' seja executada, eu camo ela
+  print("_______________________________________________")
+mensagem("Sistema de alunos")
+
+```
+
+
 
 
 
