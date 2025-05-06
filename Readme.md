@@ -365,6 +365,82 @@ def mensagem(msg):
 mensagem("Sistema de alunos")
 
 ```
+# Interactive Help `help()`
+Duas formas de chamar o comando
+1- no terminal digite `help()` + a informação que deseja obter
+p.ex.: `len`
+para sair digite `quit`
+2 - digite no arquivo.py p. ex.:
+```Python
+help(print) # mostra as infomações solicitadas
+print(input.__doc__)
+```
+# Docstring
+Manual de ajuda
+```Python
+def contador(i,f,p): # dentro da função
+    """_docstring_
+    -> faz uma contagem e mostra na tela.
+    :param i: inicio da contagem
+    :param f: fim da contagem
+    :param p: passo da contagem
+    :return: sem retorno
+    função criada por Keila
+    """
+    c = i
+    while c <= f:
+        print(f"{c}", end=' ')
+        c += p
+    print("Fim!")
+
+# contador(2,10,2)
+
+help(contador)
+```
+# Argumentos opcionais
+Permite que o parametro seja opcional
+```Python
+def somar(a, b, c=0) # o uso de =0 indica que é opcional setar um valor para o
+# argumento e `c` fica como ZERO
+s = a + b + c
+print(f"A somar vale {s}")
+somar(2, 6)# dessa forma ele soma somente 2,6 e c como ZERO
+```
+# Escopo de variáveis
+Local e Global
+```Python
+def teste()
+x = 8
+print(f"Na função teste, n vale {n}")
+print(f"Na função teste, x vale {x}")
+
+
+# Prigrama principal
+n = 2 # mesmo estando fora da variavel local, não havera erro, pois trata-se de
+# uma variavel global
+  print(f"No programa principal, n vale {n}")
+ teste()
+ print(f"No programa principal, x vale {x}") # vai gerar erro pois X esta setado
+ # somente na variavel local, antes do programa principal
+```
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+
+# Retorno de resultados `return`
+```Python
+def somar(a, b=0, c=0)
+s = a + b + c
+return s
+
+r1 = somar(2, 6)
+r2 = somar(2, 6, 5)
+r3 = somar(2)
+# retorna um print personalizado
+print(f"Meus resultados deram {r1},{r2},{r3}.")
+```
+min 50:04
 
 
 
