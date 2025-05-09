@@ -340,6 +340,20 @@ print(dados.items()) # pega ambos
 ´copy´ → método usado para fazer uma cópia semelhante ao [:]em listas
 
 ## Funções `def`
+#### Função → um bloco de código reutilizável
+    # outra vantagem: organização.
+
+#### Estrutura de uma função
+
+#### como funciona:
+```Python
+    def nome_da_funcao(parametros):
+      # instrucao 1
+      # instrucao 2
+      # ...
+      # return valor (opcional) → saida
+```
+---
 Ex. de funções '`print()`, `len()` entre outras
 Se eu quiser mostrar um linha na tela posso criar uma função pra isso p. ex.: `mostrarLinha()`
 - Vantagem: evita linhas repetitivas, otimiza rotinas *Não é um laço!. Ele cria comandos personalizados, parametros
